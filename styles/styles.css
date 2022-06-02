@@ -22,7 +22,7 @@
   }
 
   
-@font-face {
+  @font-face {
     font-family: "PT Sans";
     font-style: italic;
     font-weight: 700;
@@ -38,7 +38,7 @@
     font-display: swap;
   }
 
-  body {
+  .body {
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -48,9 +48,9 @@
 
   .button {
     font-family: PT Sans;
-    font style: Bold;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 700;
     text-align: center;
     color: #ffffff;
     background-color: #756157;
@@ -85,8 +85,6 @@
     font style: Bold;
     font size: 30px;
     line height: 36px;
-    align: Center;
-    vertical align: Top;
   }
 
   .reasons-to-visit {
@@ -95,8 +93,6 @@
     Font style: Regular;
     Font size: 22px;
     Line height: 26px;
-    Align: Center;
-    Vertical align: Top;
   }
 
   .advantages-list {
