@@ -65,13 +65,13 @@
 
   .navigation-link {
     font-family: "PT Sans", sans-serif; 
+    font size: 20px;
     line-height: 26px;
     font-weight: 700;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase; 
+    text-decoration: none; 
   }
 
   .main-index {
