@@ -160,8 +160,32 @@
     font-weight: 400;
   }
 
+  .page-footer-title {
+    font-family: "PT Sans", sans-serif;
+    font style: Bold;
+    font size: 30px;
+    line height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .page-footer-paragraph {
+    font-family: "PT Sans", sans-serif;
+    font style: Regular;
+    font size: 22px;
+    line height: 26px;
+    font-weight: 400;
+  }
   
- 
+ .footer-contacts-address-phone {
+  font-family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 40px;
+  line height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+ }
 
 
   
