@@ -45,6 +45,18 @@
     color: #000000;
     background-color: #FFFFFF;
   }
+
+  .button {
+    font-family: PT Sans;
+    font style: Bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
   
   .page-header {
     color: #000000;
@@ -65,7 +77,26 @@
   .main-index {
     color: #000000;
     background-color: #ffffff;
-    
+  }
+
+  .city-description {
+    text Style: Headings/Heading 2;
+    font family: PT Sans;
+    font style: Bold;
+    font size: 30px;
+    line height: 36px;
+    align: Center;
+    vertical align: Top;
+  }
+
+  .reasons-to-visit {
+    Text Style: Text basic;
+    Font family: PT Sans;
+    Font style: Regular;
+    Font size: 22px;
+    Line height: 26px;
+    Align: Center;
+    Vertical align: Top;
   }
 
   .advantages-list {
@@ -99,24 +130,19 @@
     background-color: rgba(131, 179, 211, 0.2);
   }
 
-  .services {
+  .advantages {
     text-transform: uppercase;
   }
   
-  /* Title */
-  .services-title {
-    font-size: 32px;
-    line-height: 35px;
+  .advantages-title {
+    font-size: 24px;
+    line-height: 28px;
     font-weight: 700;
   }
-  
-  /* Price */
-  .services-list {
+
+  .advantages-list {
     font-size: 20px;
     line-height: 28px;
     font-weight: 700;
   }
   
-  .services-price {
-    color: #af7842;
-  }
