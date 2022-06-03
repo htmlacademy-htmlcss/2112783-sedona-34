@@ -74,12 +74,12 @@
     text-decoration: none; 
   }
 
-  .main-index {
+  .main-index-background {
     color: #000000;
     background-color: #82B3D3;
     background-image: url("../images/sedona-canyon-background.jpg");
     background-size: 100% auto;
-    background-position: no-repeat;
+    background-repeat: no-repeat;
   }
 
   .city-description {
@@ -160,9 +160,18 @@
     font-weight: 400;
   }
 
+  .subscribe {
+    color: #000000;
+    background-color: #82B3D3;
+    background-image: url("../images/canyon-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
   .page-footer-title {
     font-family: "PT Sans", sans-serif;
     font style: Bold;
+    color: #FFFFFF;
     font size: 30px;
     line height: 36px;
     font-weight: 700;
@@ -171,6 +180,7 @@
 
   .page-footer-paragraph {
     font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
     font style: Regular;
     font size: 22px;
     line height: 26px;
@@ -186,6 +196,49 @@
   text-decoration: none;
   color: #000000;
  }
+
+ .background-catalog-hotels {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  background-image: url("../images/canyon-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+ }
+
+ .inner-header-title {
+  font-size: 32px;
+  line-height: 35px;
+ }
+
+ .breadcrumbs {
+  color: #FFFFFF;
+ }
+
+ .breadcrumbs-link {
+  color: inherit;
+ }
+
+ .catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font style: Bold;
+  font size: 20px;
+  line height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+ }
+
+ .control-input {
+  font-family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 18px;
+  line height: 21px;
+  font-weight: 400;
+  color: #FFFFFF;
+ }
+
+ 
+
+
 
 
   
