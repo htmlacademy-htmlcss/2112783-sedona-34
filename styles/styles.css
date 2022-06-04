@@ -48,7 +48,6 @@
 
   .button {
     font-family: "PT Sans", sans-serif;
-    font-size: 16px;
     line-height: 20px;
     font-weight: 700;
     text-align: center;
@@ -116,7 +115,6 @@
   }
 
   .advantages-title-guide {
-    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
@@ -153,7 +151,6 @@
   }
 
   .interested-suggestions {
-    font-family: "PT Sans", sans-serif;
     font style: Regular;
     font size: 22px;
     line height: 26px;
@@ -179,7 +176,6 @@
   }
 
   .page-footer-paragraph {
-    font-family: "PT Sans", sans-serif;
     color: #FFFFFF;
     font style: Regular;
     font size: 22px;
@@ -188,7 +184,6 @@
   }
   
  .footer-contacts-address-phone {
-  font-family: "PT Sans", sans-serif;
   font style: Regular;
   font size: 40px;
   line height: 40px;
@@ -211,11 +206,14 @@
  }
 
  .breadcrumbs {
+  font-family: "PT Sans", sans-serif;
   color: #FFFFFF;
  }
 
  .breadcrumbs-link {
+  line-height: 21px;
   color: inherit;
+  text-decoration: none;
  }
 
  .catalog-hotels {
@@ -224,7 +222,6 @@
  }
 
  .catalog-filter-title {
-  font-family: "PT Sans", sans-serif;
   font style: Bold;
   font size: 20px;
   line height: 26px;
@@ -250,12 +247,11 @@
   color: #000000;
  }
 
- .hotel-card {
-  font family: "PT Sans", sans-serif;
+ .hotel-list {
+  font-family: "PT Sans", sans-serif;
  }
 
  .hotel-card-title {
-  font family: "PT Sans", sans-serif;
   font style: Bold;
   font size: 24px;
   line height: 28px;
@@ -268,7 +264,6 @@
  }
 
  .hotel-card-hotel {
-  font family: "PT Sans", sans-serif;
   font style: Regular;
   font size: 18px;
   line height: 21px;
@@ -277,7 +272,6 @@
  }
 
  .hotel-card-price {
-  font family: "PT Sans", sans-serif;
   font style: Regular;
   font size: 18px;
   line height: 21px;
@@ -288,7 +282,6 @@
 .hotel-card-rating {
   font family: "PT Sans", sans-serif;
   font style: Regular;
-  font size: 16px;
   line height: 20px;
   font-weight: 400;
   color: #333333;
@@ -300,7 +293,6 @@
 }
 
 .pagination-link {
-  font family: "PT Sans", sans-serif;
   font style: Bold;
   font size: 20px;
   line height: 36px;
