@@ -218,6 +218,11 @@
   color: inherit;
  }
 
+ .catalog-hotels {
+  font-family: "PT Sans", sans-serif;
+  color: #FFFFFF;
+ }
+
  .catalog-filter-title {
   font-family: "PT Sans", sans-serif;
   font style: Bold;
@@ -245,7 +250,56 @@
   color: #000000;
  }
 
- 
+ .hotel-card {
+  font family: "PT Sans", sans-serif;
+ }
+
+ .hotel-card-title {
+  font family: "PT Sans", sans-serif;
+  font style: Bold;
+  font size: 24px;
+  line height: 28px;
+  font-weight: 700;
+  color: #000000;
+ }
+
+ .hotel-card-link {
+  text-decoration: none;
+ }
+
+ .hotel-card-hotel {
+  font family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 18px;
+  line height: 21px;
+  font-weight: 400;
+  color: #333333;
+ }
+
+ .hotel-card-price {
+  font family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 18px;
+  line height: 21px;
+  font-weight: 400;
+  color: #333333;
+ }
+
+.hotel-card-rating {
+  font family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 16px;
+  line height: 20px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
 
  
 
