@@ -115,27 +115,20 @@
     font-weight: 400;
   }
 
-  .advantages-list {
+  .advantages {
     font-family: "PT Sans", sans-serif;
+    line-height: 28px;
+  }
+
+  .advantages-list {
     text-align: center;
     font-size: 20px;
-    line-height: 28px;
-    font-weight: 700;
   }
   
   .advantages-title {
-    font-family: "PT Sans", sans-serif;
     font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
     font-weight: 700;
-  }
-
-  .advantages-title-guide {
-    font-size: 24px;
-    line-height: 28px;
     text-transform: uppercase;
-    font-weight: 700;
   }
 
   .index-columns {
@@ -175,7 +168,8 @@
   }
 
   .subscribe {
-    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
     background-color: #82B3D3;
     background-image: url("../images/canyon-background.jpg");
     background-size: 100% auto;
@@ -183,9 +177,7 @@
   }
 
   .page-footer-title {
-    font-family: "PT Sans", sans-serif;
     font style: Bold;
-    color: #FFFFFF;
     font size: 30px;
     line height: 36px;
     font-weight: 700;
@@ -193,7 +185,6 @@
   }
 
   .page-footer-paragraph {
-    color: #FFFFFF;
     font style: Regular;
     font size: 22px;
     line height: 26px;
@@ -201,138 +192,142 @@
   }
   
  .footer-contacts-address-phone {
-  font style: Regular;
-  font size: 40px;
-  line height: 40px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #000000;
+    font style: Regular;
+    font size: 40px;
+    line height: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
  }
 
  .background-catalog-hotels {
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  background-image: url("../images/canyon-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    background-image: url("../images/canyon-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
  }
 
  .inner-header-title {
-  font-size: 32px;
-  line-height: 35px;
+    font-family: "PT Sans", sans-serif;
+    font style: Bold;
+    font size: 60px;
+    line height: 78px;
+    font-weight: 700;
+    color: #FFFFFF;
  }
 
  .breadcrumbs {
-  font-family: "PT Sans", sans-serif;
-  color: #FFFFFF;
+    font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
  }
 
  .breadcrumbs-link {
-  line-height: 21px;
-  color: inherit;
-  text-decoration: none;
+    line-height: 21px;
+    color: inherit;
+    text-decoration: none;
  }
 
  .catalog-hotels {
-  font-family: "PT Sans", sans-serif;
-  color: #FFFFFF;
+    font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
  }
 
  .catalog-filter-title {
-  font style: Bold;
-  font size: 20px;
-  line height: 26px;
-  font-weight: 700;
-  color: #FFFFFF;
+    font style: Bold;
+    font size: 20px;
+    line height: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
  }
 
  .control-input {
-  font-family: "PT Sans", sans-serif;
-  font style: Regular;
-  font size: 18px;
-  line height: 21px;
-  font-weight: 400;
-  color: #FFFFFF;
+    font-family: "PT Sans", sans-serif;
+    font style: Regular;
+    font size: 18px;
+    line height: 21px;
+    font-weight: 400;
+    color: #FFFFFF;
  }
 
  .select-control {
-  font family: "PT Sans", sans-serif;
-  font style: Regular;
-  font size: 18px;
-  line height: 21px;
-  font-weight: 400;
-  color: #000000;
+    font family: "PT Sans", sans-serif;
+    font style: Regular;
+    font size: 18px;
+    line height: 21px;
+    font-weight: 400;
+    color: #000000;
  }
 
  .hotel-list {
-  font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
  }
 
  .hotel-card-title {
-  font style: Bold;
-  font size: 24px;
-  line height: 28px;
-  font-weight: 700;
-  color: #000000;
+    font style: Bold;
+    font size: 24px;
+    line height: 28px;
+    font-weight: 700;
+    color: #000000;
  }
 
  .hotel-card-link {
-  text-decoration: none;
+    text-decoration: none;
  }
 
  .hotel-card-hotel {
-  font style: Regular;
-  font size: 18px;
-  line height: 21px;
-  font-weight: 400;
-  color: #333333;
+    font style: Regular;
+    font size: 18px;
+    line height: 21px;
+    font-weight: 400;
+    color: #333333;
  }
 
  .hotel-card-price {
-  font style: Regular;
-  font size: 18px;
-  line height: 21px;
-  font-weight: 400;
-  color: #333333;
+    font style: Regular;
+    font size: 18px;
+    line height: 21px;
+    font-weight: 400;
+    color: #333333;
  }
 
 .hotel-card-rating {
-  font family: "PT Sans", sans-serif;
-  font style: Regular;
-  line height: 20px;
-  font-weight: 400;
-  color: #333333;
-  text-transform: uppercase;
+    font family: "PT Sans", sans-serif;
+    font style: Regular;
+    line height: 20px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
 }
 
 .pagination-item {
-  font family: "PT Sans", sans-serif;
+    font family: "PT Sans", sans-serif;
 }
 
 .pagination-link {
-  font style: Bold;
-  font size: 20px;
-  line height: 36px;
-  font-weight: 700;
-  color: #FFFFFF;
+    font style: Bold;
+    font size: 20px;
+    line height: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
 .sorting {
-  font family: "PT Sans", sans-serif;
-  font style: Regular;
-  font size: 18px;
-  line height: 21px;
-  font-weight: 400;
-  color: #333333;
+    font family: "PT Sans", sans-serif;
+    font style: Regular;
+    font size: 18px;
+    line height: 21px;
+    font-weight: 400;
+    color: #333333;
 }
 
 .select-control {
-  font family: "PT Sans", sans-serif;
-  font style: Regular;
-  font size: 18px;
-  line height: 21px;
-  font-weight: 400;
-  color: #333333;
+    font family: "PT Sans", sans-serif;
+    font style: Regular;
+    font size: 18px;
+    line height: 21px;
+    font-weight: 400;
+    color: #333333;
 }
 
 
