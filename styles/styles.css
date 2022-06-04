@@ -55,8 +55,25 @@
     background-color: #756157;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
   }
-  
+
+  .button-second {
+    background-color: #82B3D3;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .button-third {
+    background-color: none;
+  }
+
+  .button-favorites {
+    background-color: #7DB54F;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   .page-header {
     color: #000000;
     background-color: #FFFFFF;
