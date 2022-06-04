@@ -295,9 +295,36 @@
   text-transform: uppercase;
 }
 
+.pagination-item {
+  font family: "PT Sans", sans-serif;
+}
 
+.pagination-link {
+  font family: "PT Sans", sans-serif;
+  font style: Bold;
+  font size: 20px;
+  line height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 
+.sorting {
+  font family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 18px;
+  line height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
 
+.select-control {
+  font family: "PT Sans", sans-serif;
+  font style: Regular;
+  font size: 18px;
+  line height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
 
 
 
