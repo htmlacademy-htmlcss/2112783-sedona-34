@@ -75,6 +75,11 @@
 
   .advantages-list-guide {
     display: flex;
+    padding: 0 85px;
+  }
+
+  .advantages-item-guide {
+    width: 400px;
   }
 
   .button {
@@ -222,6 +227,26 @@
     font size: 22px;
     line height: 26px;
     font-weight: 400;
+  }
+
+  .page-footer-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-social-list {
+    width: 150px;
+    margin-right: 236.5px;
+}
+
+  .footer-contacts-address-phone {
+    width: 331px;
+    margin-right: 235.5px;
+}
+
+  .footer-contacts-htmlacademy-link {
+    margin-left: auto;
   }
 
   .subscribe {
