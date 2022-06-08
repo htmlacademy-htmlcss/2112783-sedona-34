@@ -46,6 +46,11 @@
     background-color: #FFFFFF;
   }
 
+  .page-container {
+    margin: 0 auto;
+    width: 960px;
+  }
+
   .button {
     font-family: "PT Sans", sans-serif;
     line-height: 20px;
