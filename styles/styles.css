@@ -55,7 +55,26 @@
 
   .page-container {
     margin: 0 auto;
-    width: 960px;
+    width: 1200px;
+  }
+
+  .main-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .advantages-description {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .advantages-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .advantages-list-guide {
+    display: flex;
   }
 
   .button {
@@ -91,6 +110,23 @@
     background-color: #FFFFFF;
   }
 
+  .navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .navigation-list {
+    width: 490;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-user {
+    width: 303px;
+    margin-left: auto;
+  }
+
   .navigation-link {
     font-family: "PT Sans", sans-serif; 
     font size: 20px;
@@ -100,6 +136,11 @@
     color: #000000;
     background-color: #ffffff;
     text-decoration: none; 
+  }
+
+  .main-page-container {
+    width: 1200px;
+    margin: 0 auto;
   }
 
   .main-container {
