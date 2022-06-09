@@ -5,6 +5,7 @@
     <title>Гостиницы Седоны</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
+ 
   <body>
    <div class="page-container"> 
     <header class="page-header">
@@ -51,7 +52,6 @@
 
       <div class="background-catalog-hotels">
       
-
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" class="visually-hidden" href="index.html">Главная</a>
@@ -65,6 +65,7 @@
         <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
+         <div class="catalog-filter-flex">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
                <ul class="catalog-filter-list">
@@ -89,7 +90,7 @@
           </fieldset>
 
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
+            <legend class="catalog-filter-title-housing">Тип жилья:</legend>
              <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
@@ -108,14 +109,18 @@
                   <input class="control-input" type="radio" name="hotel-group" value="apartments">Аппартаменты
                 </label>
               </li>
-
              </ul>
           </fieldset>
 
           <button class="button button-second" type="submit">Применить</button>
           <button class="button button-third" type="reset">Сбросить</button>
          </form>
+         </div>
       </div>
+
+
+       <div class="sorting">
+        <p class="search">Найдено гостиниц: 38</p>
 
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала дешевые</option>
@@ -129,9 +134,10 @@
         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
+       </div> 
 
         <ul class="hotel-list">
-          <li class="hotel-card">
+          <li class="hotel-card-amara">
              <a class="hotel-card-link" href="#">
                <img class="hotel-card-image" src="images/hotels/hotel-Amara-Resort-&-Spa.jpg" alt="hotel-Amara-Resort-&-Spa" Width="300" Height="211">
                  <h3 class="hotel-card-title">Amara Resort & Spa</h3>
@@ -144,7 +150,7 @@
           <p class="hotel-card-rating">Рейтинг: 8,5</p>
            </li>
 
-           <li class="hotel-card">
+           <li class="hotel-card-poco-diablo">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="images/hotels/hotel-Villas-at-Poco-Diablo.jpg" alt="hotel-Villas-at-Poco-Diablo" Width="300" Height="211">
                 <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
@@ -157,7 +163,7 @@
          <p class="hotel-card-rating">Рейтинг: 9,2</p>
           </li>
 
-          <li class="hotel-card">
+          <li class="hotel-card-desert">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="images/hotels/hotel-Desert-Quail-Inn.jpg" alt="hotel-Desert-Quail-Inn" Width="300" Height="211">
                 <h3 class="hotel-card-title">Desert Quail Inn</h3>
@@ -170,7 +176,7 @@
          <p class="hotel-card-rating">Рейтинг: 6,9</p>
           </li>
 
-          <li class="hotel-card">
+          <li class="hotel-card-greentree">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="images/hotels/hotel-GreenTree-Inn.jpg" alt="hotel-GreenTree-Inn" Width="300" Height="211">
                 <h3 class="hotel-card-title">GreenTree Inn</h3>
@@ -238,6 +244,7 @@
           </form>
         </section>    
   
+       <div class="page-footer-container">
         <section class="footer-social">
            <h2 class="visually-hidden">Где нас найти</h2>
              <ul class="footer-social-list">
@@ -259,7 +266,7 @@
                  </a>
                  <img class="main-image" src="images/contacts/YouTube.svg" alt="YouTube" Width="22" Height="17">
                </li>
-             </ul>
+             </ul>   
         </section>
   
         <section class="footer-contacts">
@@ -269,7 +276,9 @@
         <section class="footer-contacts">
             <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
             <img class="main-image" src="images/HTML-Academy.svg" alt="HTML-Academy" Width="114.9" Height="32.9">
-        </section>      
+        </section>
+       </div>  
+               
     </footer>
    </div>
   </body>
