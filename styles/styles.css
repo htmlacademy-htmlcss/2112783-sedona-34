@@ -203,23 +203,20 @@
 
   .flex-block {
     display: flex;
+    width: 1200px;
+  }
+
+  .flex-index-columns {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    width: 400px;
+    padding: 92px, 85px;
     margin: 0;
-    padding: 0;
   }
 
   .main-image-flex {
     display: block;
-    max-width: 800px;
-    padding-left: auto;
-  }
-
-  .flex-index-columns {
-    width: 400px;
-    margin: 0;
-    padding: 0;
-    margin-left: auto
-    color: ffffff;
-    background-color: #82B3D3;
+    width: 800px;
   }
 
   .index-columns-housing {
@@ -440,7 +437,7 @@
     display: flex;
     margin: 0;
     padding: 0;
-    width: 1056px;
+    width: 1200px;
  }
 
  .hotel-card-title {
