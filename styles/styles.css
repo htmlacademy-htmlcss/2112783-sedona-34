@@ -334,18 +334,20 @@ body {
 }
 
 .subscribe {
+  display: block;
   font-family: "PT Sans", sans-serif;
   color: #FFFFFF;
   background-color: #82B3D3;
   background-image: url("../images/canyon-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-
   margin: 0 auto;
   text-align: center;
 }
 
 .page-footer-title {
+  padding-top: 94px;
+  padding-bottom: 29px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -353,9 +355,16 @@ body {
 }
 
 .page-footer-paragraph {
+  padding-bottom: 46px;
+  padding-right: 362px;
+  padding-left: 363px;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.button-second {
+  padding-bottom: 94px;
 }
 
 .footer-contacts-address-phone {
