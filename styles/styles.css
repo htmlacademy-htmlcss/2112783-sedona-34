@@ -119,11 +119,11 @@ body {
   margin: 0;
   padding: 0;
   width: 490px;
-
 }
 
 .navigation-item-list {
   display: block;
+  padding: 5px 5px;
 
 }
 
@@ -151,14 +151,12 @@ body {
   margin: 0;
   padding: 0;
   width: 350px;
+  margin-right: 70px;
 }
 
 .navigation-link-user {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 34px;
-  padding: 10px 10px;
+  padding: 24px 12px;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
@@ -176,13 +174,8 @@ body {
 
 .main-container {
   flex-grow: 1;
-}
-
-.main-image {
-  display: block;
-  margin: 0 auto;
   padding-top: 51px;
-  padding-bottom: 82px;
+  padding-bottom: 93px;
 }
 
 .main-index-background {
@@ -191,7 +184,13 @@ body {
   background-image: url("../images/sedona-canyon-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
 
+.main-image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .city-description {
@@ -232,6 +231,8 @@ body {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 92px;
+  margin-bottom: 30px;
 }
 
 .advantages-all {
@@ -489,7 +490,6 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-right: 211px;
 }
 
 .select-control {
