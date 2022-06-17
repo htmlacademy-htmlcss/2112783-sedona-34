@@ -175,7 +175,6 @@ body {
 
 .main-container {
   flex-grow: 1;
-  padding-bottom: 93px;
 }
 
 .main-index-background {
@@ -445,7 +444,8 @@ body {
   background-image: url("../images/canyon-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -453,6 +453,8 @@ body {
   margin: 0;
   padding-top: 94px;
   padding-bottom: 29px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -464,6 +466,8 @@ body {
   padding-bottom: 46px;
   padding-right: 362px;
   padding-left: 363px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
