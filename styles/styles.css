@@ -363,13 +363,18 @@ body {
 }
 
 .suggestions {
-  margin: 0 auto;
+  margin: 0;
+  padding-top: 91px;
+  padding-bottom: 93px;
+  padding-left: 304px;
+  padding-right: 304px;
   width: 592px;
   text-align: center;
 }
 
 .interested {
-  margin-top: 91px;
+
+  margin-bottom: 29px;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
@@ -378,7 +383,6 @@ body {
 }
 
 .interested-suggestions {
-  margin-top: 29px;
   margin-bottom: 56px;
   font-size: 22px;
   line-height: 26px;
