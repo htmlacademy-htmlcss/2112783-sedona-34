@@ -224,10 +224,33 @@ body {
 
 .advantages-title {
   font-size: 24px;
+  line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 92px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 30px;
+}
+
+.advantages-numbering {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.advantages-description {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-all {
@@ -262,6 +285,10 @@ body {
 .flex-index-columns {
   display: flex;
   flex-direction: column;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  padding-left: 85px;
+  padding-right: 85px;
   color: #FFFFFF;
   background-color: #82B3D3;
 }
