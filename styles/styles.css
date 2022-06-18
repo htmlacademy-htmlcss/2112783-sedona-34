@@ -485,6 +485,11 @@ body {
   color: #000000;
 }
 
+.main-inner {
+  margin: 0;
+  padding: 0;
+}
+
 .background-catalog-hotels {
   color: #FFFFFF;
   background-color: #82B3D3;
