@@ -573,6 +573,10 @@ body {
 
 .sorting {
   display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 56px;
 }
 
 .search {
@@ -581,6 +585,9 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0;
+  margin-left: 72px;
+  margin-right: 191px;
 }
 
 .select-control {
@@ -589,12 +596,18 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #000000;
-  margin-right: 220px;
+  background-color: #ffffff;
+  margin-right: 78px;
 }
 
 .button-light {
+  width: 40px;
+  height: 40px;
+  background-color: #7DB54F;
   margin-right: 40px;
 }
+
+
 
 .hotel-list {
   font-family: "PT Sans", sans-serif;
