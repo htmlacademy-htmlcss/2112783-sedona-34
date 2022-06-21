@@ -405,7 +405,9 @@ body {
 .page-footer-container {
   display: flex;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .footer-social-list {
@@ -422,9 +424,6 @@ body {
 .footer-social-item {
   width: 47px;
   height: 40px;
-  padding-top: 45px;
-  padding-bottom: 35px;
-
 }
 
 .footer-social-item:nth-child(3n) {
@@ -432,18 +431,11 @@ body {
 }
 
 .footer-contacts-phone {
-  margin-top: 45px;
-  margin-bottom: 35px;
   margin-right: 150px;
 }
 
 .footer-contacts-address-phone {
   width: 331px;
-}
-
-.footer-contacts-htmlacademy {
-  margin-top: 48px;
-  margin-bottom: 38px;
 }
 
 .footer-contacts-htmlacademy-link {
