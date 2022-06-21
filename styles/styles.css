@@ -81,12 +81,14 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  border: 0;
 }
 
 .button-second {
   background-color: #82B3D3;
   color: #ffffff;
   text-decoration: none;
+  border: 0;
 }
 
 .button-favorites {
@@ -150,7 +152,7 @@ body {
   justify-content: space-between;
   list-style-type: none;
   margin: 0;
-  padding: ;
+  padding: 0;
   width: 350px;
   margin-right: 70px;
 }
@@ -473,10 +475,6 @@ body {
   font-weight: 400;
 }
 
-.button-second {
-  padding-bottom: 94px;
-}
-
 .footer-contacts-address-phone {
   font-size: 40px;
   line-height: 40px;
@@ -614,6 +612,10 @@ body {
   padding: 0;
   width: 1200px;
   list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
+  margin-bottom: 96px;
 }
 
 .hotel-card-title {
@@ -621,26 +623,35 @@ body {
   line-height: 28px;
   font-weight: 700;
   color: #000000;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.hotel-card-amara {
-  width: 340px;
-  margin-left: 73px;
-  margin-right: 18px;
+.hotel-card-flex {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
-.hotel-card-poco-diablo {
-  width: 340px;
-  margin-right: 18px;
-}
-
-.hotel-card-desert {
-  width: 340px;
-  margin-right: 71px;
+.hotel-card-flex-flex {
+  display: flex;
+  flex-direction: column;
 }
 
 .hotel-card-link {
   text-decoration: none;
+}
+
+.hotel-card-image {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hotel-card-hotel {
@@ -648,6 +659,21 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.rating-stars {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.hotel-card-button {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 .hotel-card-price {
@@ -655,6 +681,9 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 .hotel-card-rating {
