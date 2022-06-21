@@ -81,18 +81,25 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  border: 0;
 }
 
 .button-second {
   background-color: #82B3D3;
   color: #ffffff;
   text-decoration: none;
+  border: 0;
 }
 
 .button-favorites {
   background-color: #7DB54F;
   color: #ffffff;
   text-decoration: none;
+}
+
+.newsletter-form {
+  padding: 0;
+  margin: 0;
 }
 
 .page-header {
@@ -471,10 +478,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
-}
-
-.button-second {
-  padding-bottom: 94px;
 }
 
 .footer-contacts-address-phone {
