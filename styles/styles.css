@@ -629,6 +629,10 @@ body {
 
 .hotel-card-flex {
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hotel-card-flex-flex {
