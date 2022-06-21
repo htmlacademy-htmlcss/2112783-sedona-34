@@ -89,12 +89,18 @@ body {
   color: #ffffff;
   text-decoration: none;
   border: 0;
+  padding: 12px 15px;
 }
 
 .button-favorites {
   background-color: #7DB54F;
   color: #ffffff;
   text-decoration: none;
+}
+
+.button-suggestions {
+  border: 0;
+  padding: 12px 15px;
 }
 
 .page-header {
@@ -111,6 +117,7 @@ body {
 .logo {
   width: 139px;
   margin-right: 47px;
+  margin-left: 70px;
 }
 
 .navigation-list {
@@ -451,7 +458,6 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -477,6 +483,10 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.newsletter-form {
+  padding-bottom: 94px;
 }
 
 .footer-contacts-address-phone {
