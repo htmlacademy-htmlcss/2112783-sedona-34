@@ -670,11 +670,13 @@ body {
   margin-right: 78px;
 }
 
-.button-light {
-  width: 40px;
-  height: 40px;
-  background-color: #7DB54F;
-  margin-right: 40px;
+.card-grid {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.card-grid-toggle {
+  margin-right: 8px;
 }
 
 .hotel-list {
@@ -738,7 +740,20 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
+  background-repeat: space repeat;
 }
+
+.stars {
+  width: 140px;
+}
+
+.stars-rating {
+  background-repeat: space repeat;
+  margin-right: 6px;
+}
+
+background-repeat: space repeat;
+  margin-right: 6px;
 
 .hotel-card-price {
   font-size: 18px;
