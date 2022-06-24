@@ -432,7 +432,6 @@ body {
 }
 
 .interested {
-
   margin-bottom: 29px;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
@@ -566,13 +565,34 @@ body {
 }
 
 .breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   font-family: "PT Sans", sans-serif;
   color: #FFFFFF;
-  display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
+.breadcrumbs-link-main {
+  background-image: url("../images/house.svg");
+  display: block;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 11.7px;
+  margin-right: 10px;
+}
+
+.breadcrumbs-item-arrows {
+  background-image: url("../images/arrow.svg");
+  display: block;
+  background-repeat: no-repeat;
+  width: 5.11px;
+  height: 7.95px;
+  margin-right: 10px;
+}
+
 
 .breadcrumbs-link {
   line-height: 21px;
