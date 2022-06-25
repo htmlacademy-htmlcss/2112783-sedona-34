@@ -550,8 +550,40 @@ body {
   width: 331px;
 }
 
+.footer-contacts-address-phone:hover {
+  color: #000000;
+}
+
+.footer-contacts-address-phone:focus {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:disabled {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:disabled:hover {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .footer-contacts-htmlacademy-link {
   margin-left: auto;
+}
+
+.footer-contacts-htmlacademy-link:hover {
+  background: #000000;
+}
+
+.footer-contacts-htmlacademy-link:focus {
+  background: #756157;
+}
+
+.footer-contacts-htmlacademy-link:disabled {
+  background: #756157;
+}
+
+.footer-contacts-htmlacademy-link:disabled:hover {
+  background: rgba(117, 97, 87, 0.3);
 }
 
 .subscribe {
