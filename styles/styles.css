@@ -170,6 +170,28 @@ body {
   justify-content: center;
 }
 
+.button-suggestions:hover  {
+  background: #756157;
+  color: #FFFFFF;
+}
+
+.button-suggestions:focus {
+  background: #615048;
+  color: #FFFFFF;
+  outline: 2px solid #615048;
+}
+
+.button-suggestions:disabled {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-suggestions:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
+}
+
+
 .hotel-card-button {
   margin: 0;
   padding: 8px 15px;
@@ -277,6 +299,24 @@ body {
   margin-left: 20px;
   padding: 9px 15px;
   border-radius: 4px;
+}
+
+.button-navigation:hover {
+  background: #756157;
+}
+
+.button-navigation:focus {
+  background: #615048;
+}
+
+.button-navigation:disabled {
+  background: #615048;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-navigation:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
 }
 
 .main-page-container {
@@ -594,6 +634,14 @@ body {
   background-image: url("../images/canyon-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+}
+
+.subscribe-catalog {
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  background: #FFFFFF;
   margin: 0;
   text-align: center;
 }
