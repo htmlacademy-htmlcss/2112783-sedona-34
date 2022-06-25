@@ -240,11 +240,11 @@ body {
 .navigation-link-list-current::before {
   position: absolute;
   width: 68px;
-  height: 0px;
   left: 256px;
   top: 65px;
   background-color: #756257;
   content: "";
+  border: 2px solid;
 }
 
 .navigation-user {
@@ -519,6 +519,23 @@ body {
 .footer-social-item {
   width: 47px;
   height: 40px;
+}
+
+.main-image-contacts:hover {
+  background: #83B3D3;
+  cursor: pointer;
+}
+
+.main-image-contacts:focus {
+  background: #68A2CA;
+}
+
+.main-image-contacts:disabled {
+  background: #68A2CA;
+}
+
+.main-image-contacts:disabled:hover {
+  background: rgba(104, 162, 202, 0.3);
 }
 
 .footer-social-item:nth-child(3n) {
