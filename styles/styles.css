@@ -766,7 +766,6 @@ body {
   margin-right: 10px;
 }
 
-
 .breadcrumbs-link {
   line-height: 21px;
   color: inherit;
@@ -780,14 +779,23 @@ body {
   margin: 0;
   padding-top: 40px;
   padding-bottom: 50px;
-  padding-left: 70px;
-  padding-right: 70px;
+
+}
+
+.catalog-filter {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-filter-flex {
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+.catalog-filter-first-group {
+  margin-right: 70px;
 }
 
 .catalog-filter-title {
