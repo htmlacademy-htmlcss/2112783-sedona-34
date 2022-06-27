@@ -84,7 +84,27 @@ body {
   cursor: pointer;
   border: 0;
   border-radius: 4px;
+}
 
+.button:hover  {
+  background: #756157;
+  color: #FFFFFF;
+}
+
+.button:focus {
+  background: #615048;
+  color: #FFFFFF;
+  outline: 2px solid #615048;
+}
+
+.button:disabled {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
 }
 
 .button-flex {
@@ -104,6 +124,26 @@ body {
   padding: 14px 15px;
   margin-bottom: 20px;
   border-radius: 4px;
+}
+
+.button-apply:hover  {
+  background: #82B3D3;
+  color: #FFFFFF;
+}
+
+.button-apply:focus {
+  background: #68A2CA;
+  color: #FFFFFF;
+}
+
+.button-apply:disabled {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-apply:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
 }
 
 .button-reset {
@@ -164,6 +204,66 @@ body {
   border-radius: 4px;
 }
 
+.button-favorites-card:hover  {
+  background: #82B3D3;
+  color: #FFFFFF;
+}
+
+.button-favorites-card:focus {
+  background: #68A2CA;
+  color: #FFFFFF;
+}
+
+.button-favorites-card:disabled {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favorites-card:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
+}
+
+.button-favorites:hover  {
+  background: #7DB54F;
+  color: #FFFFFF;
+}
+
+.button-favorites:focus {
+  background: #6C9E42;
+  color: #FFFFFF;
+}
+
+.button-favorites:disabled {
+  background: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favorites:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
+}
+
+.button-second:hover  {
+  background: #82B3D3;
+  color: #FFFFFF;
+}
+
+.button-second:focus {
+  background: #68A2CA;
+  color: #FFFFFF;
+}
+
+.button-second:disabled {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-second:disabled:hover {
+  background: #E5E5E5;
+  color: #FFFFFF;
+}
+
 .button-favorites {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -190,28 +290,6 @@ body {
   justify-content: center;
 }
 
-.button-suggestions:hover  {
-  background: #756157;
-  color: #FFFFFF;
-}
-
-.button-suggestions:focus {
-  background: #615048;
-  color: #FFFFFF;
-  outline: 2px solid #615048;
-}
-
-.button-suggestions:disabled {
-  background: #756157;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.button-suggestions:disabled:hover {
-  background: #E5E5E5;
-  color: #FFFFFF;
-}
-
-
 .hotel-card-button {
   margin: 0;
   padding: 8px 15px;
@@ -228,6 +306,11 @@ body {
   color: #333333;
   padding: 9px 22px;
   border-radius: 4px;
+}
+
+.button-rating:hover  {
+  background: #F2F2F2;
+  color: #333333;
 }
 
 .page-header {
@@ -319,24 +402,6 @@ body {
   margin-left: 20px;
   padding: 9px 15px;
   border-radius: 4px;
-}
-
-.button-navigation:hover {
-  background: #756157;
-}
-
-.button-navigation:focus {
-  background: #615048;
-}
-
-.button-navigation:disabled {
-  background: #615048;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.button-navigation:disabled:hover {
-  background: #E5E5E5;
-  color: #FFFFFF;
 }
 
 .main-page-container {
@@ -669,7 +734,6 @@ body {
 .field {
   background: #F2F2F2;
   border-radius: 0px 10px 10px 0px;
-
 }
 
 .page-footer-title {
@@ -857,7 +921,26 @@ body {
 }
 
 .card-grid-toggle {
+  margin: 0;
+  padding: 0;
   margin-right: 8px;
+  border-radius: 4px;
+}
+
+.card-grid-toggle:hover  {
+  border: 2px solid #E5E5E5;
+}
+
+.card-grid-toggle:focus {
+  border: 2px solid #000000;
+}
+
+.card-grid-toggle:disabled {
+  border: 2px solid #68A2CA;
+}
+
+.card-grid-toggle:disabled:hover {
+  border: 2px solid #000000;
 }
 
 .hotel-list {
@@ -933,9 +1016,6 @@ body {
   margin-right: 6px;
 }
 
-background-repeat: space repeat;
-margin-right: 6px;
-
 .hotel-card-price {
   font-size: 18px;
   line-height: 21px;
@@ -991,11 +1071,44 @@ margin-right: 6px;
   height: 60px;
   padding: 12px 24px;
   text-decoration: none;
+  border-radius: 4px;
+}
+
+.pagination-link:hover  {
+  background: #82B3D3;
+}
+
+.pagination-link:focus {
+  background: #68A2CA;
+}
+
+.pagination-link:disabled {
+  background: #82B3D3;
 }
 
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+}
+
+.pagination-current:hover  {
+  background: #F2F2F2;
+  color: #000000
+}
+
+.pagination-current:focus {
+  background: #F2F2F2;
+  color: #000000
+}
+
+.pagination-current:disabled {
+  background: #F2F2F2;
+  color: #000000
+}
+
+.pagination-current:disabled:hover {
+  background: #F2F2F2;
+  color: #000000
 }
 
 .sorting-pagination {
