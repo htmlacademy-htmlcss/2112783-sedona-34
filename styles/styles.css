@@ -581,25 +581,25 @@ body {
   height: 40px;
 }
 
-.main-image-contacts:hover {
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.footer-social-link:hover {
   background: #83B3D3;
   cursor: pointer;
 }
 
-.main-image-contacts:focus {
+.footer-social-link:focus {
   background: #68A2CA;
 }
 
-.main-image-contacts:disabled {
+.footer-social-link:disabled {
   background: #68A2CA;
 }
 
-.main-image-contacts:disabled:hover {
+.footer-social-link-svg:disabled:hover {
   background: rgba(104, 162, 202, 0.3);
-}
-
-.footer-social-item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .footer-contacts-phone {
