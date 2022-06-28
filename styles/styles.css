@@ -86,7 +86,7 @@ body {
   border-radius: 4px;
 }
 
-.button:hover  {
+.button:hover {
   background: #756157;
   color: #FFFFFF;
 }
@@ -126,7 +126,7 @@ body {
   border-radius: 4px;
 }
 
-.button-apply:hover  {
+.button-apply:hover {
   background: #82B3D3;
   color: #FFFFFF;
 }
@@ -170,7 +170,7 @@ body {
   border-radius: 0px 10px 10px 0px;
 }
 
-.button-second:hover  {
+.button-second:hover {
   background: #82B3D3;
   color: #FFFFFF;
 }
@@ -204,7 +204,7 @@ body {
   border-radius: 4px;
 }
 
-.button-favorites-card:hover  {
+.button-favorites-card:hover {
   background: #82B3D3;
   color: #FFFFFF;
 }
@@ -224,7 +224,7 @@ body {
   color: #FFFFFF;
 }
 
-.button-favorites:hover  {
+.button-favorites:hover {
   background: #7DB54F;
   color: #FFFFFF;
 }
@@ -244,7 +244,7 @@ body {
   color: #FFFFFF;
 }
 
-.button-second:hover  {
+.button-second:hover {
   background: #82B3D3;
   color: #FFFFFF;
 }
@@ -308,7 +308,7 @@ body {
   border-radius: 4px;
 }
 
-.button-rating:hover  {
+.button-rating:hover {
   background: #F2F2F2;
   color: #333333;
 }
@@ -650,21 +650,25 @@ body {
   margin-right: 0;
 }
 
-.footer-social-link:hover {
-  background: #83B3D3;
+.icon {
+  color: #83B3D3;
+}
+
+.icon:hover {
+  color: #83B3D3;
   cursor: pointer;
 }
 
-.footer-social-link:focus {
-  background: #68A2CA;
+.icon:focus {
+  color: #68A2CA;
 }
 
-.footer-social-link:disabled {
-  background: #68A2CA;
+.icon:disabled {
+  color: #68A2CA;
 }
 
-.footer-social-link-svg:disabled:hover {
-  background: rgba(104, 162, 202, 0.3);
+.icon:disabled:hover {
+  color: rgba(104, 162, 202, 0.3);
 }
 
 .footer-contacts-phone {
@@ -927,7 +931,7 @@ body {
   border-radius: 4px;
 }
 
-.card-grid-toggle:hover  {
+.card-grid-toggle:hover {
   border: 2px solid #E5E5E5;
 }
 
@@ -1074,7 +1078,7 @@ body {
   border-radius: 4px;
 }
 
-.pagination-link:hover  {
+.pagination-link:hover {
   background: #82B3D3;
 }
 
@@ -1091,7 +1095,7 @@ body {
   background-color: #F2F2F2;
 }
 
-.pagination-current:hover  {
+.pagination-current:hover {
   background: #F2F2F2;
   color: #000000
 }
