@@ -869,11 +869,14 @@ body {
 .catalog-filter-first-group {
   margin: 0;
   padding: 0;
+  border: 0;
   margin-right: 70px;
 }
 
 .catalog-filter-second-group {
-  margin-right: 175.42px;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .catalog-filter-title {
@@ -892,7 +895,48 @@ body {
   list-style-type: none;
 }
 
+.control {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  background-image: url("../images/check-mark.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+}
+
+.control:hover .control-mark {
+  background: #FFFFFF;
+}
+
+.control-input:focus + .control-mark {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.control-input:disabled + .control-mark {
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+}
+
+.control-input:disabled:hover + .control-mark {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .catalog-filter-group {
+  margin: 0;
+  padding: 0;
+  border: 0;
   position: relative;
 }
 
