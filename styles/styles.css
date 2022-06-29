@@ -168,6 +168,7 @@ body {
   border: 0;
   padding: 12px 15px;
   border-radius: 0px 10px 10px 0px;
+  width: 200px;
 }
 
 .button-second:hover {
@@ -240,26 +241,6 @@ body {
 }
 
 .button-favorites:disabled:hover {
-  background: #E5E5E5;
-  color: #FFFFFF;
-}
-
-.button-second:hover {
-  background: #82B3D3;
-  color: #FFFFFF;
-}
-
-.button-second:focus {
-  background: #68A2CA;
-  color: #FFFFFF;
-}
-
-.button-second:disabled {
-  background: #82B3D3;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.button-second:disabled:hover {
   background: #E5E5E5;
   color: #FFFFFF;
 }
@@ -631,6 +612,28 @@ body {
   font-weight: 400;
 }
 
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.field {
+  width: 600px;
+  background: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  border: 0;
+  padding-left: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+
 .page-footer-container {
   display: flex;
   width: 1200px;
@@ -744,11 +747,6 @@ body {
   text-align: center;
 }
 
-.field {
-  background: #F2F2F2;
-  border-radius: 0px 10px 10px 0px;
-}
-
 .page-footer-title {
   margin: 0;
   padding-top: 94px;
@@ -771,10 +769,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
-}
-
-.newsletter-form {
-  padding-bottom: 94px;
 }
 
 .footer-contacts-address-phone {
