@@ -779,6 +779,115 @@ body {
   color: #000000;
 }
 
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.modal-auth {
+  width: 715px;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 20px;
+  top: 74px;
+  right: 90px;
+  width: 13px;
+  height: 13px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modal-title {
+  margin: 0;
+  margin-bottom: 63px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.modal-arrival-date {
+  display: flex;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.modal-titile-second {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  margin-right: 42px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.field-group {
+  margin: 0;
+  padding: 0;
+}
+
+.field-modal {
+  width: 420px;
+  background: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  border: 0;
+  padding-left: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.modal-departure-date {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.modal-number-of-persons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.modal-adults {
+  display: flex;
+}
+
+.modal-children {
+  display: flex;
+}
+
 .main-inner {
   margin: 0;
   padding: 0;
