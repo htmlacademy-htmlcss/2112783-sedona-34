@@ -792,27 +792,29 @@ body {
 .modal {
   position: relative;
   margin: auto;
-  padding: 40px;
+  padding: 70px;
   background-color: #ffffff;
 }
 
-.modal-auth {
+.modal-search {
   width: 715px;
 }
 
 .modal-close-button {
   position: absolute;
   padding: 20px;
-  top: 74px;
+  top: 62px;
   right: 90px;
-  width: 13px;
-  height: 13px;
-  background-color: #ffffff;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
   border: none;
   background-image: url("../images/close.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+
 }
 
 .modal-title {
