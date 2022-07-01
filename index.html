@@ -302,22 +302,22 @@
 
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиниц в Седоне</h2>
-          <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
 
             <div class="modal-arrival-date">
               <p class="modal-titile-second">Дата заезда:</p>
               <p class="field-group">
-                <label class="visually-hidden" for="auth-date">27 апреля</label>
-                <input class="auth-form-field field-modal" type="date" id="auth-login" name="auth-login"
+                <label class="visually-hidden" for="search-date">27 апреля 2020</label>
+                <input class="search-form-field field-modal" type="text" id="modal-search" name="search-hotels"
                   placeholder="Укажите дату">
               </p>
             </div>
 
-            <div class="modal-departure-date">
+            <div class="modal-arrival-date">
               <p class="modal-titile-second">Дата выезда:</p>
               <p class="field-group">
-                <label class="visually-hidden" for="auth-login">27 апреля</label>
-                <input class="auth-form-field field-modal" type="date" id="auth-login" name="auth-login"
+                <label class="visually-hidden" for="search-date">27 апреля 2020</label>
+                <input class="search-form-field field-modal" type="text" id="modal-search" name="search-hotels"
                   placeholder="Укажите дату">
               </p>
             </div>
@@ -326,22 +326,26 @@
               <div class="modal-adults">
                 <p class="modal-titile-second">Взрослые:</p>
                 <p class="field-group">
-                  <label class="visually-hidden" for="auth-login">27 апреля</label>
-                  <input class="auth-form-field field-modal" type="date" id="auth-login" name="auth-login"
-                    placeholder="Укажите дату">
+                  <button class="button modal-search-button" type="submit">Минус</button>
+                  <label class="visually-hidden" for="search-adults">2</label>
+                  <input class="search-form-field field-modal" type="text" id="modal-search" name="search-adults"
+                    placeholder="2">
+                  <button class="button modal-search-button" type="submit">Плюс</button>
                 </p>
               </div>
 
               <div class="modal-children">
                 <p class="modal-titile-second">Дети:</p>
                 <p class="field-group">
-                  <label class="visually-hidden" for="auth-login">27 апреля</label>
-                  <input class="auth-form-field field-modal" type="date" id="auth-login" name="auth-login"
-                    placeholder="Укажите дату">
+                  <button class="button modal-search-button" type="submit">Минус</button>
+                  <label class="visually-hidden" for="search-children">1</label>
+                  <input class="search-form-field field-modal" type="text" id="modal-search" name="search-children"
+                    placeholder="1">
+                  <button class="button modal-search-button" type="submit">Плюс</button>
                 </p>
               </div>
             </div>
-            <button class="button auth-form-button" type="submit">Найти</button>
+            <button class="button modal-button" type="submit">Найти</button>
 
           </form>
         </section>
