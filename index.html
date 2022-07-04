@@ -293,7 +293,7 @@
       </footer>
     </div>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-search">
 
         <button class="modal-close-button">
@@ -305,7 +305,7 @@
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
 
             <div class="modal-arrival-date">
-              <p class="modal-titile-second">Дата заезда:</p>
+              <p class="modal-titile-arrival">Дата заезда:</p>
               <p class="field-group-search-date">
                 <label class="visually-hidden" for="search-date">27 апреля 2020</label>
                 <input class="search-form-field field-modal-search-date" type="text" id="modal-search"
@@ -313,8 +313,10 @@
               </p>
             </div>
 
+            <p class="modal-arrival-date-error">Мы не можем отправить вас в прошлое</p>
+
             <div class="modal-arrival-date">
-              <p class="modal-titile-second">Дата выезда:</p>
+              <p class="modal-titile-departure">Дата выезда:</p>
               <p class="field-group-search-date">
                 <label class="visually-hidden" for="search-date">1 сентября 2021</label>
                 <input class="search-form-field field-modal-search-date" type="text" id="modal-search"
@@ -322,26 +324,48 @@
               </p>
             </div>
 
+            <p class="modal-arrival-date-warning">На эти даты есть свободные номера. Пока есть.</p>
+
             <div class="modal-number-of-persons">
               <div class="modal-adults">
                 <p class="modal-titile-adults">Взрослые:</p>
                 <p class="field-group">
-                  <button class="button modal-search-button" type="submit">Минус</button>
+                  <button class="button modal-button-minus" type="submit"></button>
                   <label class="visually-hidden number-of-adults" for="search-adults">2</label>
                   <input class="search-form-field field-modal" type="text" id="modal-search" name="search-adults"
                     placeholder="2">
-                  <button class="button modal-search-button" type="submit">Плюс</button>
+                  <button class="button modal-button-plus" type="submit"></button>
                 </p>
               </div>
 
               <div class="modal-children">
-                <p class="modal-titile-children">Дети:</p>
+                <span class="modal-titile-children modal-titile-children-icon">
+                  <p class="modal-titile-children">Дети:</p>
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                      <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#a)" fill="#fff">
+                          <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+                        </g>
+                        <defs>
+                          <clipPath id="a">
+                            <path fill="#fff" d="M0 0h1v9H0z" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
+                      с вами, возраст которых от 6 до
+                      18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  </span>
+                </span>
+
                 <p class="field-group">
-                  <button class="button modal-search-button" type="submit">Минус</button>
+                  <button class="button modal-button-minus" type="submit"></button>
                   <label class="visually-hidden" for="search-children">1</label>
                   <input class="search-form-field field-modal" type="text" id="modal-search" name="search-children"
                     placeholder="1">
-                  <button class="button modal-search-button" type="submit">Плюс</button>
+                  <button class="button modal-button-plus" type="submit"></button>
                 </p>
               </div>
             </div>
