@@ -431,6 +431,7 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+
 }
 
 .reasons-to-visit {
@@ -501,9 +502,10 @@ body {
   margin: 0;
   padding-top: 63px;
   padding-bottom: 90px;
-  padding-left: 273px;
-  padding-right: 273px;
+  padding-left: 200px;
+  padding-right: 200px;
   text-align: center;
+
 }
 
 .advantages-list-guide {
