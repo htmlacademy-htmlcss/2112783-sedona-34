@@ -36,8 +36,8 @@
                 </svg>
                 <span class="visually-hidden">Поиск</span>
               </a>
-
             </li>
+
             <li class="navigation-item-user">
               <a class="navigation-link-user" href="#">
                 <svg aria-hidden="true" focusable="false" width="19" height="17" viewBox="0 0 19 17" fill="none"
@@ -49,7 +49,7 @@
                 <span class="visually-hidden">Подборка</span>
               </a>
             </li>
-            <li class="navigation-item-user">
+            <li class="navigation-item-user-button">
               <a class="button button-navigation" href="#">ХОЧУ СЮДА!</a>
             </li>
           </ul>
@@ -88,11 +88,12 @@
                     height="384" />
                 </div>
 
-                <ul class="advantages-list-guide">
-                  <div class="flex-guide">
+                <div class="flex-guide">
+                  <ul class="advantages-list-guide">
+
                     <div class="index-columns-housing">
                       <li class="advantages-item-guide">
-                        <img class="image-house" src="images/housing.svg" alt="жилье" width="74.7" height="72" />
+                        <img class="image-house" src="images/housing.svg" alt="жилье" width="75" height="72" />
                         <h3 class="advantages-title">Жильё</h3>
                         <p class="advantages-description">
                           Рекомендуем пожить в настоящем мотеле, всё как в кино!
@@ -102,7 +103,7 @@
 
                     <div class="index-columns-food">
                       <li class="advantages-item-guide">
-                        <img class="image-burger" src="images/food.svg" alt="еда" width="73.81" height="70" />
+                        <img class="image-burger" src="images/food.svg" alt="еда" width="74" height="70" />
                         <h3 class="advantages-title">Еда</h3>
                         <p class="advantages-description">
                           Всегда заказывайте топовый фирменный бургер, вы не
@@ -122,8 +123,9 @@
                         </p>
                       </li>
                     </div>
-                  </div>
-                </ul>
+
+                  </ul>
+                </div>
               </li>
 
               <li class="advantages-item-image">
@@ -307,9 +309,9 @@
             <div class="modal-arrival-date">
               <p class="modal-titile-arrival">Дата заезда:</p>
               <p class="field-group-search-date">
-                <label class="visually-hidden" for="search-date">27 апреля 2020</label>
-                <input class="search-form-field field-modal-search-date" type="text" id="modal-search"
-                  name="search-hotels" placeholder="Укажите дату">
+                <label class="visually-hidden" for="search-date">Укажите дату</label>
+                <input class="search-form-field field-modal-search-date" type="text" id="modal-search-arrival"
+                  name="search-hotels" placeholder="27 апреля 2020">
               </p>
             </div>
 
@@ -318,9 +320,9 @@
             <div class="modal-arrival-date">
               <p class="modal-titile-departure">Дата выезда:</p>
               <p class="field-group-search-date">
-                <label class="visually-hidden" for="search-date">1 сентября 2021</label>
-                <input class="search-form-field field-modal-search-date" type="text" id="modal-search"
-                  name="search-hotels" placeholder="Укажите дату">
+                <label class="visually-hidden" for="search-date">Укажите дату</label>
+                <input class="search-form-field field-modal-search-date" type="text" id="modal-search-departure"
+                  name="search-hotels" placeholder="1 сентября 2021">
               </p>
             </div>
 
@@ -332,32 +334,32 @@
                 <p class="field-group">
                   <button class="button modal-button-minus" type="submit"></button>
                   <label class="visually-hidden number-of-adults" for="search-adults">2</label>
-                  <input class="search-form-field field-modal" type="text" id="modal-search" name="search-adults"
+                  <input class="search-form-field field-modal" type="text" id="modal-search-adults" name="search-adults"
                     placeholder="2">
                   <button class="button modal-button-plus" type="submit"></button>
                 </p>
               </div>
 
               <div class="modal-children">
-                <span class="modal-titile-children modal-titile-children-icon">
-                  <p class="modal-titile-children">Дети:</p>
-                  <span class="tooltip">
-                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
-                      <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#a)" fill="#fff">
-                          <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
-                        </g>
-                        <defs>
-                          <clipPath id="a">
-                            <path fill="#fff" d="M0 0h1v9H0z" />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </button>
-                    <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
-                      с вами, возраст которых от 6 до
-                      18 лет. Дети до 6 лет размещаются бесплатно.</span>
-                  </span>
+                <p class="modal-titile-children">Дети:</p>
+                <span class="modal-titile-children modal-titile-children-icon"></span>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                    <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#a)" fill="#fff">
+                        <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+                      </g>
+                      <defs>
+                        <clipPath id="a">
+                          <path fill="#fff" d="M0 0h1v9H0z" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
+                    с вами, возраст которых от 6 до
+                    18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                </span>
                 </span>
 
                 <p class="field-group">
