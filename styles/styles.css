@@ -1319,22 +1319,75 @@ body {
   padding-left: 40px;
 }
 
-.control-mark {
+.control-mark-first-group {
   position: absolute;
   top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
+  left: 0px;
+  width: 12px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.control-mark-first-check {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 12px;
+  height: 9px;
   background: #FFFFFF;
   border-radius: 4px;
   background-image: url("../images/check-mark.svg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 0;
-  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
-.control:hover .control-mark {
+.control-mark-second-group {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 12px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  margin: 0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.control-mark-second-check {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 12px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  background-image: url("../images/check-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.control:hover +.control-mark {
   background: #FFFFFF;
 }
 
