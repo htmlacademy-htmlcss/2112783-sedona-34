@@ -1295,6 +1295,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  margin-right: 175px;
 }
 
 .catalog-filter-title {
@@ -1413,6 +1414,8 @@ body {
 
 .range-scale {
   position: relative;
+  left: 10px;
+  width: 287px;
   height: 4px;
   background-color: #756257;
   border-radius: 2px;
@@ -1459,10 +1462,11 @@ body {
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .range-input {
-  width: 145px;
+
   padding-left: 18px;
   font: inherit;
   color: #FFFFFF;
@@ -1480,6 +1484,7 @@ body {
 
 .catalog-filter-label {
   display: flex;
+
 }
 
 .control-input {
