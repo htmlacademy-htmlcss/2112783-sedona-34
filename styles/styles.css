@@ -357,7 +357,7 @@ body {
 .navigation-link-list-hotels::before {
   position: absolute;
   width: 93px;
-  left: 474px;
+  left: 506px;
   top: 65px;
   content: "";
   border: 2px solid #756257;
@@ -1232,6 +1232,10 @@ body {
   list-style-type: none;
 }
 
+.breadcrumbs-item-main {
+  margin-top: 5px;
+}
+
 .breadcrumbs-link-main {
   background-image: url("../images/house.svg");
   display: block;
@@ -1248,6 +1252,7 @@ body {
   width: 5.11px;
   height: 7.95px;
   margin-right: 10px;
+  margin-top: 7px;
 }
 
 .breadcrumbs-link {
