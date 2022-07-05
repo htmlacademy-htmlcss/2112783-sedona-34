@@ -269,6 +269,7 @@ body {
   line-height: 36px;
   display: flex;
   justify-content: center;
+  margin-left: 313px;
 }
 
 .hotel-card-button {
@@ -505,7 +506,6 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   text-align: center;
-
 }
 
 .advantages-list-guide {
@@ -601,9 +601,7 @@ body {
   margin: 0;
   padding-top: 91px;
   padding-bottom: 93px;
-  padding-left: 304px;
-  padding-right: 304px;
-  width: 592px;
+  width: 630;
   text-align: center;
 }
 
