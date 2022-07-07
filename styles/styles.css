@@ -1541,6 +1541,11 @@ body {
   color: #000000;
   background-color: #ffffff;
   margin-right: 78px;
+  padding: 13px 20px;
+  width: 290px;
+  max-height: 49px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 }
 
 .card-grid {
