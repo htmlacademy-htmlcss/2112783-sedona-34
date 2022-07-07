@@ -1323,7 +1323,7 @@ body {
 .control-mark-first-group {
   position: absolute;
   top: 2px;
-  left: 0px;
+  left: 1px;
   width: 12px;
   height: 9px;
   background: #FFFFFF;
@@ -1338,7 +1338,7 @@ body {
 .control-mark-first-check {
   position: absolute;
   top: 2px;
-  left: 0px;
+  left: 1px;
   width: 12px;
   height: 9px;
   background: #FFFFFF;
@@ -1408,6 +1408,7 @@ body {
 .catalog-filter-group {
   margin: 0;
   padding: 0;
+  margin-right: 70px;
   border: 0;
   position: relative;
 }
@@ -1460,13 +1461,21 @@ body {
 }
 
 .range-wrapper-inputs {
+  position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
 }
 
-.range-input {
+.catalog-filter-label {
+  display: flex;
+  min-height: 48px;
+  margin: 0;
+  padding: 0;
+}
 
+.range-input {
+  width: 144px;
   padding-left: 18px;
   font: inherit;
   color: #FFFFFF;
@@ -1482,9 +1491,16 @@ body {
   margin: 0;
 }
 
-.catalog-filter-label {
-  display: flex;
+.min-price-text {
+  position: absolute;
+  bottom: -4px;
+  left: 130px;
+}
 
+.max-price-text {
+  position: absolute;
+  bottom: -4px;
+  left: 296px;
 }
 
 .control-input {
@@ -1611,19 +1627,14 @@ body {
   margin-bottom: 16px;
 }
 
-.rating-stars {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 30px;
-  background-repeat: space repeat;
-}
-
 .stars {
-  width: 140px;
+  display: block;
+  background-image: url("../images/star.svg");
+  background-repeat: no-repeat;
+
 }
 
 .stars-rating {
-  background-repeat: space repeat;
   margin-right: 6px;
 }
 
