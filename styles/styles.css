@@ -1318,6 +1318,7 @@ body {
   position: relative;
   display: block;
   padding-left: 40px;
+  margin-bottom: 15px;
 }
 
 .control-mark-first-group {
@@ -1475,7 +1476,7 @@ body {
 }
 
 .range-input {
-  width: 144px;
+  width: 124px;
   padding-left: 18px;
   font: inherit;
   color: #FFFFFF;
@@ -1494,13 +1495,13 @@ body {
 .min-price-text {
   position: absolute;
   bottom: -4px;
-  left: 130px;
+  left: 115px;
 }
 
 .max-price-text {
   position: absolute;
   bottom: -4px;
-  left: 296px;
+  left: 260px;
 }
 
 .control-input {
