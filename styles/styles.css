@@ -413,7 +413,7 @@ body {
   padding-bottom: 2px;
   padding-left: 2px;
   padding-right: 2px;
-  
+
 }
 
 .main-page-container {
@@ -1603,7 +1603,11 @@ body {
   grid-template-columns: repeat(3, 340px);
   gap: 20px;
   margin: 0;
+  padding: 0;
   margin-bottom: 96px;
+  margin-left: 73px;
+  margin-right: 71px;
+
 }
 
 .hotel-card-title {
