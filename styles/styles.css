@@ -1668,6 +1668,8 @@ body {
   padding: 0;
   margin-right: 8px;
   border-radius: 4px;
+  width: 48px;
+  height: 45px;
 }
 
 .card-grid-toggle:hover {
