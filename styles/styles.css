@@ -169,6 +169,28 @@ body {
   text-transform: none;
 }
 
+.button-reset:hover {
+  color: #FFFFFF;
+  background: transparent;
+}
+
+.button-reset:focus {
+  color: #FFFFFF;
+  background: transparent;
+  opacity: 0.6;
+}
+
+.button-reset:disabled {
+  background: transparent;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-reset:disabled:hover {
+  color: #FFFFFF;
+  background: transparent;
+}
+
 .button-second {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -370,7 +392,7 @@ body {
 .navigation-link-list-current::before {
   position: absolute;
   width: 68px;
-  left: 256px;
+  left: 254px;
   top: 65px;
   content: "";
   border: 2px solid #756257;
@@ -379,7 +401,7 @@ body {
 .navigation-link-list-hotels::before {
   position: absolute;
   width: 93px;
-  left: 506px;
+  left: 470px;
   top: 65px;
   content: "";
   border: 2px solid #756257;
@@ -1487,11 +1509,12 @@ body {
 }
 
 .control:hover + .control-mark {
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .control-input:focus + .control-mark {
-  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+  background: rgba(255, 255, 255, 0.6);;
 }
 
 .control-input:disabled + .control-mark {
@@ -1573,9 +1596,25 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 48px;
+  height: 48px;
   margin: 0;
   padding: 0;
+}
+
+.catalog-filter-label:hover {
+  border: 0px solid #FFFFFF;
+  border-radius: 4px 0px 0px 4px;
+  opacity: 0.6;
+}
+
+.catalog-filter-label:focus {
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+}
+
+.catalog-filter-label:active {
+  background: #756257;
+  border: 0px solid #FFFFFF;
+  border-radius: 4px 0px 0px 4px;
 }
 
 .min-price-text {
@@ -1669,23 +1708,23 @@ body {
   margin-right: 8px;
   border-radius: 4px;
   width: 48px;
-  height: 45px;
+  height: 48px;
 }
 
 .card-grid-toggle:hover {
-  border: 2px solid #E5E5E5;
+  border: 0px solid #E5E5E5;
 }
 
 .card-grid-toggle:focus {
-  border: 2px solid #000000;
+  border: 0px solid #000000;
 }
 
 .card-grid-toggle:disabled {
-  border: 2px solid #68A2CA;
+  border: 0px solid #68A2CA;
 }
 
 .card-grid-toggle:disabled:hover {
-  border: 2px solid #000000;
+  border: 0px solid #000000;
 }
 
 .hotel-list {
