@@ -51,8 +51,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
@@ -119,11 +119,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .button-apply {
@@ -306,8 +306,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-left: 313px;
 }
 
@@ -359,7 +359,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding-top: 20px;
@@ -412,10 +412,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -450,7 +450,7 @@ body {
   position: relative;
 }
 
-.navigation-compilation{
+.navigation-compilation {
   position: absolute;
   top: 15px;
   left: 23px;
@@ -472,8 +472,8 @@ body {
 
 .main-container {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .main-index-background {
@@ -578,19 +578,28 @@ body {
   text-align: center;
 }
 
-.advantages-list-guide {
+.flex-guide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+.advantages-list-guide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   text-align: center;
   font-size: 20px;
-
 }
 
 .advantages-item {
+  flex-wrap: wrap;
   width: 230px;
   margin: 0;
 }
@@ -617,6 +626,11 @@ body {
   background-color: #FFFFFF;
 }
 
+.advantages-description-housing {
+  width: 200px;
+  margin-left: 20px;
+}
+
 .flex-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -630,8 +644,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-top: 92px;
   padding-bottom: 92px;
   padding-left: 85px;
@@ -645,15 +659,8 @@ body {
   width: 800px;
 }
 
-.flex-guide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .advantages-item-three-square {
+  width: 230px;
   padding-top: 102px;
   padding-bottom: 102px;
   padding-left: 85px;
@@ -663,6 +670,7 @@ body {
 }
 
 .advantages-item-three-road {
+  width: 230px;
   padding-top: 102px;
   padding-bottom: 102px;
   padding-left: 85px;
@@ -672,6 +680,7 @@ body {
 }
 
 .advantages-item-three-tourists {
+  width: 230px;
   padding-top: 102px;
   padding-bottom: 102px;
   padding-left: 85px;
@@ -708,8 +717,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-bottom: 94px;
 }
 
@@ -744,7 +753,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -833,7 +842,7 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3;
   background-image: url("../images/canyon-background.jpg");
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 0;
   text-align: center;
@@ -954,8 +963,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
 }
@@ -1064,8 +1073,8 @@ body {
   margin-top: 15px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 1;
   display: none;
 }
@@ -1313,7 +1322,7 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3;
   background-image: url("../images/canyon-background.jpg");
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   display: block;
   margin: 0;
@@ -1337,9 +1346,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   font-family: "PT Sans", sans-serif;
   color: #FFFFFF;
   margin: 0;
@@ -1514,7 +1523,8 @@ body {
 
 .control-input:focus + .control-mark {
   border: 3px solid #83B3D3;
-  background: rgba(255, 255, 255, 0.6);;
+  background: rgba(255, 255, 255, 0.6);
+  ;
 }
 
 .control-input:disabled + .control-mark {
@@ -1587,8 +1597,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 32px;
 }
 
@@ -1638,14 +1648,14 @@ body {
   border: 2px solid #FFFFFF;
   border-radius: 4px;
   -webkit-appearance: textfield;
-     -moz-appearance: textfield;
-          appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -1758,7 +1768,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding-top: 16px;
   padding-bottom: 20px;
   padding-left: 5px;
@@ -1771,8 +1781,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hotel-card-link {
@@ -1856,7 +1866,7 @@ body {
   background-color: #82B3D3;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 60px;
   height: 60px;
   padding: 12px 24px;
