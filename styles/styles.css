@@ -1808,7 +1808,8 @@ body {
 }
 
 .stars-rating {
-  margin-right: 6px;
+  margin: 0;
+  padding-top: 10px;
 }
 
 .hotel-card-price {
